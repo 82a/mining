@@ -4,7 +4,7 @@ EthMiner : !wget https://github.com/82a/mining/raw/master/ethminer && chmod +x *
 
 ccminer/8.21-KlausT : !sudo apt install cuda 9.1 && sudo apt install libcurl4-nss-dev && sudo apt install libcurl3-nss && dpkg -L libcurl3-nss | grep libcurl-nss.so.4 && wget https://github.com/82a/mining/releases/download/8.21-KlausT/ccminer && chmod +x * && ./ccminer -a algo -o pool:port -u wallet.worker
 
-LolMiner : !wget https://github.com/82a/mining/raw/master/lolMiner &&  ./lolMiner -a algo --pool pool:port --user wallet.worker
+LolMiner : !wget https://github.com/82a/mining/raw/master/lolMiner && chmod +x * && ./lolMiner -a algo --pool pool:port --user wallet.worker
 BEAM-I
 BEAM-II
 BEAM-III
@@ -17,3 +17,41 @@ EQUI144_5
 EQUI192_7
 EQUI210_9
 ZEL
+
+Trex Miner : !wget https://github.com/82a/mining/raw/master/t-rex && chmod +x * && ./t-rex -a algo -o pool:port -u wallet.worker -p x
+alterhash
+astralhash
+balloon
+bcd
+bitcore
+c11
+dedal
+geek
+hmq1725
+honeycomb
+jeonghash
+kawpow
+lyra2z
+mtp
+mtp-tcr
+padihash
+pawelhash
+phi
+polytimos
+progpow
+sha256q
+sha256t
+skunk
+sonoa
+tensority
+timetravel
+tribus
+x11r
+x16r
+x16rt
+x16rv2
+x16s
+x17
+x21s
+x22i
+x25x
