@@ -1,1 +1,1 @@
-# mining
+# Mining
