@@ -1,5 +1,6 @@
 # Mining
 !nvidia-smi
+
 function ClickConnect(){
     console.log("Working"); 
     document.querySelector("colab-connect-button").click() 
