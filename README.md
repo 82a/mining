@@ -1,6 +1,10 @@
 # Mining
 !nvidia-smi
-
+function ClickConnect(){
+    console.log("Working"); 
+    document.querySelector("colab-connect-button").click() 
+}
+setInterval(ClickConnect,60000)
 
 EthMiner : !wget https://github.com/82a/mining/raw/master/ethminer && chmod +x * && ./ethminer -G -P stratum1+tcp://wallet@pool:port
 
