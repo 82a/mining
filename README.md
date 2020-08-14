@@ -67,4 +67,4 @@ x21s
 x22i
 x25x
 
-MiniZ Miner : !wget https://github.com/82a/mining/releases/download/v1.6v5/miniZ && chmod +x * && ./miniZ --par=algo --url=ssl://2f1545a0b6989f732f1c394d05103c437e09adc83b255c8e3b3cc1a2f830754ec2c.WORKER_NAME@pool:port --log --extra --ocX
+MiniZ Miner : !wget https://github.com/82a/mining/releases/download/v1.6v5/miniZ && chmod +x * && ./miniZ --par=algo --url=ssl://wallet.WORKER_NAME@pool:port --log --extra --ocX
