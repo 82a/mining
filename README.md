@@ -28,7 +28,7 @@ EQUI192_7
 EQUI210_9
 ZEL
 
-Trex Miner : !wget https://github.com/82a/mining/raw/master/t-rex && chmod +x * && ./t-rex -a algo -o pool:port -u wallet.worker -p x
+Trex Miner : !wget https://github.com/82a/mining/releases/download/tt-miner/TT-Miner.tar.xz && tar xf TT-Miner.tar.xz && chmod +x * && ./t-rex -a algo -o pool:port -u wallet.worker -p x
 
 alterhash
 astralhash
