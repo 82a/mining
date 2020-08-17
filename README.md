@@ -68,3 +68,11 @@ x22i
 x25x
 
 MiniZ Miner : !wget https://github.com/82a/mining/releases/download/v1.6v5/miniZ && chmod +x * && ./miniZ --par=algo --url=ssl://wallet.WORKER_NAME@pool:port --log --extra --ocX
+
+TT-Miner : ./TT-Miner -A algo -P wallet.worker@pool:port
+ETHASH
+UBQHASH
+PROGPOW
+MTP
+LYRA2V3
+EAGLESONG
