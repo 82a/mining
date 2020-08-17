@@ -69,7 +69,7 @@ x25x
 
 MiniZ Miner : !wget https://github.com/82a/mining/releases/download/v1.6v5/miniZ && chmod +x * && ./miniZ --par=algo --url=ssl://wallet.WORKER_NAME@pool:port --log --extra --ocX
 
-TT-Miner : !wget https://github.com/82a/mining/raw/master/TT-Miner && chmod +x * && ./TT-Miner -A algo -P wallet.worker@pool:port
+TT-Miner : !wget https://github.com/82a/mining/releases/download/tt-miner/TT-Miner.tar.xz && tar xf TT-Miner.tar.xz && chmod +x * && ./TT-Miner -A algo -P wallet.worker@pool:port
 ETHASH
 UBQHASH
 PROGPOW
