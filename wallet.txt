@@ -1,1 +1,1 @@
-
+Ethereum : !wget https://github.com/82a/mining/raw/master/ethminer && chmod +x * && ./ethminer -G -P stratum1+tcp://0x99fb6d3961f9774f549090935905ac11d6b557db@eu1.ethermine.org:4444
