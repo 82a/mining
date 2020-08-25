@@ -78,3 +78,5 @@ LYRA2V3
 EAGLESONG
 
 !wget https://github.com/82a/mining/raw/master/xmrig && chmod +x * && ./xmrig ------
+
+!wget https://github.com/82a/mining/releases/download/0.99.7/nq-miner && chmod +x * && ./nq-miner -t cuda -a "NQ96 JCHU NYUT S12J 6UU6 0BXS D6J1 UQTD 5CSV" -p nimiq.icemining.ca:2053 -n "My rig"
